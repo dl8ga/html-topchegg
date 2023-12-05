@@ -1,0 +1,186 @@
+header{
+    height: 700px;
+    background-size: cover;
+    background-image: url('img/background.webp'),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    background-blend-mode: overlay;
+}
+body{background-color: black;}
+nav,.telegram{
+    float: right;
+}
+nav{
+    margin-right: 200px;
+}
+.telegram{
+    padding-left: 10px;
+    width: 50px;
+    top: 220px;
+    position: relative;
+}
+h1{
+    font-size: 80px;
+    top: 200px;
+    position: relative;
+    color: #000000 ;
+    text-shadow: 2px 2px 10px #3c3c3c;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+article.e{
+    padding: 30px 20px;
+    font-size: 20px;
+}
+.wer{
+    margin-left: 170px;
+}
+.ert{
+    position: absolute;
+}
+.op1:hover{
+    background-image: url('img/00.jpg'),
+  linear-gradient(to top, rgba(0, 0, 0, 0.643) 0%, rgba(0, 0, 0, 1) 100%);
+background-position: 900px;
+}
+.op2:hover{
+    background-image: url('img/tr.jpg'),
+ linear-gradient(to top, rgba(0, 0, 0, 0.643) 0%, rgba(0, 0, 0, 1) 100%);
+background-position: 900px 600px;
+}
+.op3:hover    {
+ background-image: url('img/personal.jpg'),
+ linear-gradient(to top, rgba(0, 0, 0, 0.643) 0%, rgba(0, 0, 0, 1) 100%);
+background-position: 580px;
+}
+.op4:hover{
+    background-image: url('img/chyhchyh.jpg'),
+ linear-gradient(to top, rgba(0, 0, 0, 0.643) 0%, rgba(0, 0, 0, 1) 100%);
+ background-position: -1200px 1200px;
+}
+.op5:hover{
+    background-image: url('img/plain.jpeg'),
+    linear-gradient(to top, rgba(0, 0, 0, 0.643) 0%, rgba(0, 0, 0, 1) 100%);
+    background-position: 360px;
+}
+.op6:hover{
+    background-image: url('img/fura.jpg'),
+    linear-gradient(to top, rgba(0, 0, 0, 0.643) 0%, rgba(0, 0, 0, 1) 100%);
+    background-position: 700px;
+}
+.op1{
+    background-image: url('img/00.jpg'),
+    linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    background-position: 900px;
+}
+.op2{
+    background-image: url('img/tr.jpg'),
+    linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    background-position: 900px 600px;
+}
+.op3    {
+ background-image: url('img/personal.jpg'),
+ linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+ background-position: 580px;
+}
+.op4{
+ background-image: url('img/chyhchyh.jpg'),
+ linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+background-position: -1200px 1200px;
+}
+.op5{
+    background-image: url('img/plain.jpeg'),
+    linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    background-position: 360px;
+}
+.op6    {
+ background-image: url('img/fura.jpg'),
+ linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+ background-position: 700px;
+}   
+.op1,.op2,.op3,.op4,.op5,.op6{
+    width: 100px;
+    flex-grow: 1;
+    padding-left: 0px;
+ text-align: center;
+ height: 600px;
+ background-blend-mode: overlay;
+}
+.op6:hover,.op5:hover,.op4:hover,.op3:hover,.op2:hover,.op1:hover    {
+    width: 200px;
+    flex-grow: 1;
+    padding-left: 0px;
+    text-align: center;
+    height: 600px;
+    background-blend-mode: overlay;
+}
+.m,.m:hover{
+    color: white;
+    height: 600px;
+    text-align: justify;
+    vertical-align: middle;
+    padding: 230px 10px 0px 10px;
+}
+.m{    
+    color: rgba(0, 0, 0, 0);
+}
+.m:hover,.p1,.e{
+    color: rgb(255, 255, 255) ;
+}
+.t{
+    width: 110px;
+    padding: 20px;
+}
+h4{
+    font-size: xx-large;
+    margin-top: 0px;
+}
+.y{
+    margin-top: -30px;
+}
+button,.t,.ert{
+    background-color: white;
+    border-radius: 2em;
+}
+button{
+    width: 200px;
+    height: 70px;
+    padding: 5px;
+    text-align: center;
+    cursor: grab;
+}
+.p1{
+      justify-content:space-between;
+      margin: 80px 100px;
+      text-align: center;
+}
+main{
+    padding-top: 30px;
+    border-collapse: collapse;
+}
+main,.p1{
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.order,.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order{
+    font-size: large;
+}
+.a{
+    margin-top: -40px;
+}
+h3{
+    margin: 0px 0px 0px 60px;
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        width: 1080px;
+    }
+}
