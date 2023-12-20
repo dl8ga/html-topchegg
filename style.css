@@ -51,7 +51,7 @@ a{
     text-decoration: none;
     color: black;
 }
-article.e{
+div.e{
     font-size: 20px;
 }
 .wer{
@@ -177,14 +177,21 @@ button{
       margin: 80px 100px;
       text-align: center;
 }
-main{
+.lkl{
     padding-top: 30px;
     border-collapse: collapse;
 }
-main,.p1{
+.lkl{
     display: flex ;
     flex-wrap: wrap;
     flex-direction: row;
+}
+.p1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    
 }
 .order,.a{
     display: flex;
@@ -235,23 +242,131 @@ h5{
     flex-grow: 1;
     color: white;
     width: 200px;
-    margin-top: -30px;  
+    margin-top: -10px;  
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 @media screen and (max-width: 420px) {
     body {
-        width: 420px;
+        width: 420px;   
     }
+    .p1{
+        width: 900px;
+    }
+    .t{
+    width: 300px;
+    padding: 20px;
+}
+.y{
+    font-size: xx-large;
+}
+.wer{
+    font-size: xx-large;
+}
+.op1,.op2,.op3,.op4,.op5,.op6{
+    font-size: xx-large;
+}
+h3{
+    font-size: large;
+    margin-bottom: 0px;
+}
+.sh{
+
+    font-size: x-large;
+}
+nav{
+    width: 87%;
+}
+.ik{
+    width: 60px;
+}
+.order{
+    font-size: xx-large;
+}
+footer{
+font-size: xx-large;
+}
 }
 @media screen and (max-width: 600px) {
     body {
         width: 600px;
     }
+    .p1{
+        width: 900px;
+    }
+    .t{
+    width: 300px;
+    padding: 20px;
+}
+.y{
+    font-size: xx-large;
+}
+.wer{
+    font-size: xx-large;
+}
+.op1,.op2,.op3,.op4,.op5,.op6{
+    font-size: x-large;
+}
+h3{
+    font-size: x-large;
+    margin-bottom: 0px;
+}
+.sh{
+
+    font-size: x-large;
+}
+nav{
+    width: 85%;
+}
+.ik{
+    width: 50px;
+}
+.order{
+    font-size: x-large;
+}
+footer{
+font-size: x-large;
+}
 }
 @media screen and (max-width: 768px) {
     body {
         width: 768px;
     }
+    .p1{
+        width: 900px;
+    }
+    .t{
+    width: 300px;
+    padding: 20px;
+}
+.y{
+    font-size: xx-large;
+}
+.wer{
+    font-size: xx-large;
+}
+.op1,.op2,.op3,.op4,.op5,.op6{
+    font-size: x-large;
+}
+h3{
+    font-size: x-large;
+    margin-bottom: 0px;
+}
+.sh{
+
+    font-size: x-large;
+}
+nav{
+    width: 85%;
+}
+.ik{
+    width: 50px;
+}
+.order{
+    font-size: x-large;
+}
+footer{
+font-size: x-large;
+}
 }
 
 @media screen and (max-width: 1080px) {
